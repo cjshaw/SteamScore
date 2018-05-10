@@ -1,0 +1,173 @@
+*	{
+    padding:0;
+    margin:0;
+}
+
+body {
+background: #554B4E;
+}
+
+img#logo {
+    height: 10%;
+    width: 10%;
+}
+
+div#wrapper	{
+    width:940px;
+    margin:120px auto 20px auto;
+}
+
+div#empty {
+    width:940px;
+    height:200px;
+}
+
+img#avatar {
+    padding:5px;
+    height: 50%;
+    width: 50%;
+}
+
+input#indexForm {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input#username {
+    width:30%;
+    background: white;
+    border-radius: 2px;
+    border: 2px solid black;
+    box-sizing:border-box;
+}
+
+nav#topBar {
+    padding: 20px;
+}
+
+footer	{
+    margin-top: 10px;
+    height:25px;
+    line-height:25px;
+    border-top:2px dotted black;
+    color:black;
+    clear: both;
+}
+
+footer a	{
+    color: darkblue;
+}
+
+footer li	{
+    float: inherit;
+    text-align: center;
+    list-style-type:none;
+    margin-right:10px;
+}
+
+input#indexForm {
+    margin-left: 5px;
+}
+
+h1#header {
+    padding:30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1#username {
+    padding: 10px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1#score {
+    padding: 10px;
+    font-size: 35px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+h4#indexForm {
+    font-size: 20px;
+    text-align:center;
+}
+
+div#pCard {
+    border-radius: 10px;
+    width: 100%;
+    content:"";
+    clear:both;
+    display: table;
+    background: darkseagreen;
+
+}
+
+div#leftCol {
+    float: left;
+    width: 25%;
+    margin-top:12px;
+}
+
+div#rightCol {
+    float:left;
+    width: 75%;
+    margin-top: 12px;
+}
+
+ul#leftProfile {
+    list-style: none;
+    display: inline;
+}
+
+.gridContain {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto 10px auto;
+    padding: 5px;
+}
+
+.gridItem {
+    border-radius: 5px;
+    border: 2px black;
+    padding: 30px;
+    text-align:center;
+}
+
+.menu_links {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
